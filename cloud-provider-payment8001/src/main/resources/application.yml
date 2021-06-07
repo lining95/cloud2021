@@ -24,7 +24,6 @@ eureka:
     instance-id: payment8001
     prefer-ip-address: true     #访问路径可以显示IP地址
 
-
 mybatis:
   mapperLocations: classpath:mapper/*.xml
   type-aliases-package: com.ning.springcloud.entities    # 所有Entity别名类所在包
