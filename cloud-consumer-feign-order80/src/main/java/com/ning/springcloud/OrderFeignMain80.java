@@ -8,6 +8,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 public class OrderFeignMain80 {
     public static void main(String[] args) {
-        SpringApplication.run(OrderFeignMain80.class,args);
+        SpringApplication.run(OrderFeignMain80.class, args);
     }
 }

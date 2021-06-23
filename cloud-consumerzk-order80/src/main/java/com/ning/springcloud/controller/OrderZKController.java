@@ -10,14 +10,14 @@ import javax.annotation.Resource;
 @RestController
 @Slf4j
 public class OrderZKController {
-    public static final String  INVOKE_URL="http://cloud-provider-payment";
+    public static final String INVOKE_URL = "http://cloud-provider-payment";
 
     @Resource
     private RestTemplate restTemplate;
 
     @GetMapping(value = "/consumer/payment/zk")
-    public String paymentInfo(){
-        return restTemplate.getForObject(INVOKE_URL+"/payment/zk",String.class);
+    public String paymentInfo() {
+        return restTemplate.getForObject(INVOKE_URL + "/payment/zk", String.class);
     }
 
 }
