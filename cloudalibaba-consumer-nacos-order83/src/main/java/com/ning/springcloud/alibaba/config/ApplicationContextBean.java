@@ -1,4 +1,4 @@
-package com.ning.springcloud.config;
+package com.ning.springcloud.alibaba.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
